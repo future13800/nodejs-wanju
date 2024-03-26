@@ -4,21 +4,21 @@
 #=======================================
 # 设置固定隧道参数(如果不设置，默认启用临时隧道，端口自动，无需手动设置)
 # json或token,支持直接复制全部，如cloudflared.exe service install eyxxx，F大佬json获取地址https://fscarmen.cloudflare.now.cc
-export TOK='' 
-export ARGO_DOMAIN=''
+export TOK='eyJhIjoiNjI3N2MyMDE1N2E5ZTIyNmNkNGI2YzdlZWNiYzdmYTYiLCJ0IjoiMTk4MDAyYzktY2MyNC00ZGY3LWI5OGQtNDU0NzAzZTc2MWVkIiwicyI6IllUWmtNVEpqTTJNdE5qY3lOUzAwWXpJMUxXRm1NVGN0TjJGalpqTmlOVEV5TjJSbCJ9' 
+export ARGO_DOMAIN='back.babiq.eu.org'
 #=======================================
 #设置哪吒参数(NEZHA_TLS='1'开启tls,设置其他关闭tls)
-export NEZHA_SERVER=''
-export NEZHA_KEY=''
+export NEZHA_SERVER='nezha.babiq.eu.org'
+export NEZHA_KEY='1ZkWTEG7tCPRE0KaMI'
 export NEZHA_PORT='443'
 export NEZHA_TLS='1'
 #=======================================
 # 下面设置UUID和路径，CF_IP是优选IP，SUB_NAME为节点名称
-export UUID='fd80f56e-93f3-4c85-b2a8-c77216c509a7'
+export UUID='1e994878-c0c7-40dc-92fb-0fee710adf26'
 export VPATH='vls' #vless路径
 export MPATH='vms' #vmess路径
 export CF_IP='ip.sb'
-export SUB_NAME='bbn'
+export SUB_NAME='back4app'
 #=======================================
 # 启动玩具原程序，把原游戏文件改名senver.jar,默认不开启，如果开启请去掉前面的#号.
 # 注意原游戏启动后，不显示节点日志
